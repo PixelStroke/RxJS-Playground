@@ -1,9 +1,6 @@
+import './creationFunctions/of.ts';
+import './creationFunctions/from.ts';
+import './creationFunctions/fromEvent.ts';
+import './creationFunctions/intervals.ts';
+import './creationFunctions/timer.ts';
 import './style.css';
-
-import { of, map } from 'rxjs';
-
-of('World')
-  .pipe(map(name => `Hello, ${name}!`))
-  .subscribe(console.log);
-
-// Open the console in the bottom right to see results.
