@@ -15,4 +15,5 @@ import './style.css';
 //import './pipeOperators/catchError.ts';
 //import './pipeOperators/flatten.ts';
 //--
-import './subjects/demo.ts';
+//import './subjects/demo.ts';
+import './subjects/behaviorSubject.ts';
