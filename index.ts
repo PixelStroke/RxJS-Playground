@@ -13,4 +13,6 @@ import './style.css';
 //import './pipeOperators/tap.ts';
 //import './pipeOperators/debounceTime.ts';
 //import './pipeOperators/catchError.ts';
-import './pipeOperators/flatten.ts';
+//import './pipeOperators/flatten.ts';
+//--
+import './subjects/demo.ts';
